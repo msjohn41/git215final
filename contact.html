@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snowy Mountain Lodge | Contact</title>
+
+    <meta name="author" content="Michael Johnson">
+    <meta name="description" content="Snowy Mountain Lodge Contact Page">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Snowy Mountain Lodge</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <img src="images/swiss-valley.jpg" alt="Green forest with snowy mountains in the background" id="swiss-valley-img">
+        </section>
+
+        <section class="main-contact">
+            <section class="contact">
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. <br> We are happy to help you plan your dream vacation with us! <br><br> Required fields marked with a *</p>
+                <img src="images/swiss-peak.jpg" alt="Large snow covered mountain behind a forest of green pine trees" id="swiss-peak-image">
+            </section>
+
+            <section class="contact-form">
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                    <label for="my-name">Full Name (First and Last) <span class="required">*</span></label>
+                    <br>
+                    <input type="text" name="my-name" id="my-name" required>
+                    <br>
+                    <label for="my-email">Email Address <span class="required">*</span></label>
+                    <br>
+                    <input type="email" name="my-email" id="my-email" required>
+                    <br>
+                    <label for="my-phone">Phone <span class="required">*</span></label>
+                    <br>
+                    <input type="tel" name="my-phone" id="my-phone" required>
+                    <br>
+                    <fieldset>
+                        <legend>Preferred Method of Contact<span class="required">*</span></legend>
+                                    
+                        <input type="radio" name="contact-pref" id="pref-email" value="prefer-email" required checked>
+                        <label for="pref-email">Email</label>
+                                    
+                        <input type="radio" name="contact-pref" id="pref-phone" value="prefer-phone">
+                        <label for="pref-phone">Phone</label>
+                                    
+                    </fieldset>
+                    <br>
+                    <label for="my-comments">Comments <span class="required">*</span></label>
+                    <br>
+                    <textarea name="my-comments" id="my-comments" required></textarea>
+                    <br>
+                    <input type="submit" name="my-submit" id="my-submit">
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy;2024 - Snowy Mountain Lodge</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+</html>
